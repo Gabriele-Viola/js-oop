@@ -84,3 +84,9 @@ const autos = [
   for (let i = 0; i < autos.length; i++){
     console.log(autos[i].modello);
   }
+
+  const modelli = autos.map( auto => auto.modello)
+  console.log(modelli);
+   const green= autos.filter(auto => auto.carburante == 'Ibrido')
+   console.log(green);
+   
