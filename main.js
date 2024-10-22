@@ -65,4 +65,22 @@ console.log(corsa.getage());
 console.log(corsa.getinformation());
 console.log(corsa.getMoreInfo());
 
+const autos = [
+    { marca: "Tesla", modello: "Model 3", anno: 2022, carburante: "Elettrico" },
+    { marca: "BMW", modello: "Serie 3", anno: 2020, carburante: "Diesel" },
+    { marca: "Audi", modello: "A4", anno: 2021, carburante: "Benzina" },
+    { marca: "Fiat", modello: "Panda", anno: 2019, carburante: "GPL" },
+    { marca: "Ford", modello: "Focus", anno: 2018, carburante: "Ibrido" },
+    { marca: "Volkswagen", modello: "Golf", anno: 2023, carburante: "Benzina" },
+    { marca: "Toyota", modello: "Corolla", anno: 2021, carburante: "Ibrido" },
+    { marca: "Mercedes-Benz", modello: "Classe A", anno: 2022, carburante: "Diesel" },
+    { marca: "Renault", modello: "Clio", anno: 2020, carburante: "GPL" },
+    { marca: "Peugeot", modello: "308", anno: 2023, carburante: "Benzina" }
+  ];
 
+  
+  autos.forEach(auto => (console.log(auto.marca)) )
+  
+  for (let i = 0; i < autos.length; i++){
+    console.log(autos[i].modello);
+  }
